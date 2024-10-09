@@ -1,0 +1,183 @@
+[2024-10-09T16:07:15.217+0000] {processor.py:186} INFO - Started process (PID=4429) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:07:15.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:07:15.218+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:15.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:07:15.226+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:07:15.319+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:15.318+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:multiple_tasks_dani
+[2024-10-09T16:07:15.331+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:15.330+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:multiple_tasks_dani
+[2024-10-09T16:07:15.340+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:15.339+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:multiple_tasks_dani
+[2024-10-09T16:07:15.354+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:15.354+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:multiple_tasks_dani
+[2024-10-09T16:07:15.363+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:15.363+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:multiple_tasks_dani
+[2024-10-09T16:07:15.371+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:15.371+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:multiple_tasks_dani
+[2024-10-09T16:07:15.380+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:15.379+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:multiple_tasks_dani
+[2024-10-09T16:07:15.380+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:15.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:07:15.390+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:15.390+0000] {dag.py:3262} INFO - Creating ORM DAG for multiple_tasks_dani
+[2024-10-09T16:07:15.399+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:15.399+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:07:15.413+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.200 seconds
+[2024-10-09T16:07:45.511+0000] {processor.py:186} INFO - Started process (PID=4494) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:07:45.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:07:45.512+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:45.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:07:45.520+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:07:45.538+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:45.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:07:45.564+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:07:45.564+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:07:45.584+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.078 seconds
+[2024-10-09T16:08:15.706+0000] {processor.py:186} INFO - Started process (PID=4558) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:08:15.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:08:15.707+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:08:15.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:08:15.715+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:08:15.732+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:08:15.732+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:08:15.758+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:08:15.758+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:08:15.777+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.076 seconds
+[2024-10-09T16:08:46.042+0000] {processor.py:186} INFO - Started process (PID=4622) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:08:46.042+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:08:46.043+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:08:46.043+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:08:46.051+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:08:46.068+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:08:46.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:08:46.095+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:08:46.094+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:08:46.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.076 seconds
+[2024-10-09T16:09:16.307+0000] {processor.py:186} INFO - Started process (PID=4687) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:09:16.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:09:16.309+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:09:16.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:09:16.316+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:09:16.334+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:09:16.334+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:09:16.360+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:09:16.360+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:09:16.381+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.078 seconds
+[2024-10-09T16:09:46.583+0000] {processor.py:186} INFO - Started process (PID=4751) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:09:46.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:09:46.585+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:09:46.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:09:46.593+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:09:46.610+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:09:46.610+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:09:46.638+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:09:46.638+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:09:46.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.083 seconds
+[2024-10-09T16:10:16.917+0000] {processor.py:186} INFO - Started process (PID=4822) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:10:16.918+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:10:16.919+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:10:16.918+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:10:16.928+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:10:16.943+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:10:16.943+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:10:16.963+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:10:16.963+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:10:16.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.072 seconds
+[2024-10-09T16:10:47.179+0000] {processor.py:186} INFO - Started process (PID=4886) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:10:47.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:10:47.180+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:10:47.180+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:10:47.188+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:10:47.204+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:10:47.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:10:47.223+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:10:47.223+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:10:47.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.068 seconds
+[2024-10-09T16:11:17.625+0000] {processor.py:186} INFO - Started process (PID=4950) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:11:17.626+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:11:17.626+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:11:17.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:11:17.634+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:11:17.652+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:11:17.652+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:11:17.674+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:11:17.674+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:11:17.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.075 seconds
+[2024-10-09T16:11:47.933+0000] {processor.py:186} INFO - Started process (PID=5014) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:11:47.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:11:47.935+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:11:47.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:11:47.943+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:11:47.959+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:11:47.958+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:11:47.982+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:11:47.982+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:11:48.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.088 seconds
+[2024-10-09T16:12:18.322+0000] {processor.py:186} INFO - Started process (PID=5078) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:12:18.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:12:18.324+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:12:18.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:12:18.331+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:12:18.349+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:12:18.348+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:12:18.375+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:12:18.375+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:12:18.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.078 seconds
+[2024-10-09T16:12:48.658+0000] {processor.py:186} INFO - Started process (PID=5142) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:12:48.658+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:12:48.659+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:12:48.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:12:48.667+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:12:48.682+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:12:48.682+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:12:48.703+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:12:48.703+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:12:48.723+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.070 seconds
+[2024-10-09T16:13:19.022+0000] {processor.py:186} INFO - Started process (PID=5206) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:13:19.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:13:19.024+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:13:19.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:13:19.032+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:13:19.050+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:13:19.049+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:13:19.075+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:13:19.075+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:13:19.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.075 seconds
+[2024-10-09T16:13:49.307+0000] {processor.py:186} INFO - Started process (PID=5270) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:13:49.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:13:49.308+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:13:49.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:13:49.316+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:13:49.330+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:13:49.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:13:49.349+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:13:49.349+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:13:49.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.064 seconds
+[2024-10-09T16:14:19.682+0000] {processor.py:186} INFO - Started process (PID=5334) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:14:19.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:14:19.683+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:14:19.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:14:19.691+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:14:19.705+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:14:19.705+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:14:19.724+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:14:19.724+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:14:19.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.065 seconds
+[2024-10-09T16:14:49.950+0000] {processor.py:186} INFO - Started process (PID=5398) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:14:49.951+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:14:49.952+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:14:49.951+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:14:49.959+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:14:49.974+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:14:49.974+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:14:49.993+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:14:49.993+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 15:00:00+00:00, run_after=2024-10-09 16:00:00+00:00
+[2024-10-09T16:14:50.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.063 seconds
+[2024-10-09T16:15:20.269+0000] {processor.py:186} INFO - Started process (PID=5462) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:15:20.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:15:20.271+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:15:20.271+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:15:20.278+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:15:20.293+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:15:20.293+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:15:20.312+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:15:20.312+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 16:00:00+00:00, run_after=2024-10-09 17:00:00+00:00
+[2024-10-09T16:15:20.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.065 seconds
+[2024-10-09T16:15:50.468+0000] {processor.py:186} INFO - Started process (PID=5526) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:15:50.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:15:50.469+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:15:50.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:15:50.477+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:15:50.492+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:15:50.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:15:50.512+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:15:50.512+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 16:00:00+00:00, run_after=2024-10-09 17:00:00+00:00
+[2024-10-09T16:15:50.536+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.073 seconds
+[2024-10-09T16:16:20.624+0000] {processor.py:186} INFO - Started process (PID=5590) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:16:20.625+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:16:20.626+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:16:20.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:16:20.634+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:16:20.652+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:16:20.652+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:16:20.678+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:16:20.677+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 16:00:00+00:00, run_after=2024-10-09 17:00:00+00:00
+[2024-10-09T16:16:20.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.080 seconds
+[2024-10-09T16:16:50.752+0000] {processor.py:186} INFO - Started process (PID=5655) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:16:50.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:16:50.753+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:16:50.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:16:50.761+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:16:50.778+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:16:50.778+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:16:50.805+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:16:50.805+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 16:00:00+00:00, run_after=2024-10-09 17:00:00+00:00
+[2024-10-09T16:16:50.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.090 seconds
+[2024-10-09T16:17:20.979+0000] {processor.py:186} INFO - Started process (PID=5720) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:17:20.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:17:20.982+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:17:20.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:17:20.989+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:17:21.005+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:17:21.005+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:17:21.026+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:17:21.026+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 16:00:00+00:00, run_after=2024-10-09 17:00:00+00:00
+[2024-10-09T16:17:21.047+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.073 seconds
+[2024-10-09T16:17:51.260+0000] {processor.py:186} INFO - Started process (PID=5784) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:17:51.261+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:17:51.262+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:17:51.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:17:51.269+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:17:51.286+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:17:51.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:17:51.313+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:17:51.313+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 16:00:00+00:00, run_after=2024-10-09 17:00:00+00:00
+[2024-10-09T16:17:51.341+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.086 seconds
+[2024-10-09T16:18:21.734+0000] {processor.py:186} INFO - Started process (PID=5848) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:18:21.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:18:21.736+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:18:21.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:18:21.744+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:18:21.761+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:18:21.761+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:18:21.783+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:18:21.782+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 16:00:00+00:00, run_after=2024-10-09 17:00:00+00:00
+[2024-10-09T16:18:21.803+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.075 seconds
+[2024-10-09T16:18:51.952+0000] {processor.py:186} INFO - Started process (PID=5912) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:18:51.953+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:18:51.954+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:18:51.954+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:18:51.963+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:18:51.981+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:18:51.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:18:52.007+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:18:52.006+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 16:00:00+00:00, run_after=2024-10-09 17:00:00+00:00
+[2024-10-09T16:18:52.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.082 seconds
+[2024-10-09T16:19:22.095+0000] {processor.py:186} INFO - Started process (PID=5976) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:19:22.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-09T16:19:22.097+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:19:22.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:19:22.107+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_dani' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-09T16:19:22.152+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:19:22.152+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-09T16:19:22.182+0000] {logging_mixin.py:190} INFO - [2024-10-09T16:19:22.182+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_dani to 2024-10-09 16:00:00+00:00, run_after=2024-10-09 17:00:00+00:00
+[2024-10-09T16:19:22.203+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.127 seconds
